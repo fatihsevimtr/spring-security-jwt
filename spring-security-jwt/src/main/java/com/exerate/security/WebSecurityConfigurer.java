@@ -14,6 +14,8 @@ import com.exerate.services.MyUserDetailsService;
 @EnableWebSecurity
 public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter{
 
+	//the user is static for now.
+	
 	@Autowired
 	private MyUserDetailsService myUserDetailsService;
 
